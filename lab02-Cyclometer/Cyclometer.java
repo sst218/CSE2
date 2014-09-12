@@ -16,7 +16,6 @@
 //      javac Cyclometer.java
 //  run the program
 //      java Cyclometer//
-
 //define a class
 public class Cyclometer{
     
