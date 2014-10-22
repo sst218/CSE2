@@ -40,13 +40,13 @@ Scanner myScanner;
 				System.out.println();
 				innerCounter = 1;
 				while (innerCounter <= outerCounter) {
-					System.out.print("*");
+					System.out.print("*");//prints out the stars 
 					innerCounter++;
 				}
 				outerCounter++;
 			}
 			
-			System.out.println();
+			System.out.print();
 			
 			System.out.print("Enter y or Y to go again- ");
 			String userChoice = myScanner.next();
