@@ -19,7 +19,7 @@ public class MoreLoops{
 	    System.out.print("You did not enter an int; try again- ");
 	}
 	//COMMENT OUT THE ABOVE 5 LINES AND REPLACE THE CODE WITH A 
-	//DO-WHILE LOOP  
+	//DO-WHILE LOOP  */
 
 	System.out.print("Enter an int - ");
 		do {
@@ -30,7 +30,7 @@ public class MoreLoops{
 			else {
 				break;
 			}
-		} while(true); */
+		} while(true); 
 		
 		
 		
@@ -44,7 +44,7 @@ public class MoreLoops{
 	    System.out.println();
 	}
 	//COMMENT OUT THE ABOVE SIX LINES OF CODE AND REPLACE WITH 
-	//WHILE STATEMENTS 
+	//WHILE STATEMENTS */
 	
 n=scan.nextInt();
 int j=0;
@@ -57,27 +57,27 @@ while(j<n && j<40) {
 	System.out.println();
 	j++;
 	}	
-	*/
 	
 	
 	
 	
-/*     
-	int k=4;
+	
+    
+/*	int k=4;
 	do{
 	    System.out.println("k="+k);
 	    k++;
 	}
          while(k<4);
     //COMMENT OUT THE ABOVE FIVE LINES AND REPLACE THE CODE
-	//WITH A WHILE LOOP  
-int k=4;	
+	//WITH A WHILE LOOP  */
+ int k=4;	
 	while(k<=4) {
 		System.out.println("k="+k);
 		k++;
 
 		}	
-	*/
+	
 	
 
 
@@ -101,6 +101,13 @@ int k=4;
 		break;
 	} 
 	
+	//COMMENT OUT THE ABOVE 16 LINES AND REWRITE THE CODE USING
+	// ONLY FOR LOOPS AND IF STATEMENS. BEFORE DOING SO, TRY
+	//RUNNING THE CODE WITH VARIOUS INPUTTED VALUES, E.G., 
+	//   -5, 1, 20, 5, ETC.
+	//IF YOU GET AN INFINITE LOOP, YOU CAN STOP IT BY 
+	//SIMULTANEOUSLY PRESSING THE CTRL KEY AND THE C KEY 
+	*/
 int count=0;	
 while(true) {
 		if(n == 1 || n == 2) {
@@ -126,12 +133,7 @@ while(true) {
 			}
 			count++;
 		}	
-	//COMMENT OUT THE ABOVE 16 LINES AND REWRITE THE CODE USING
-	// ONLY FOR LOOPS AND IF STATEMENS. BEFORE DOING SO, TRY
-	//RUNNING THE CODE WITH VARIOUS INPUTTED VALUES, E.G., 
-	//   -5, 1, 20, 5, ETC.
-	//IF YOU GET AN INFINITE LOOP, YOU CAN STOP IT BY 
-	//SIMULTANEOUSLY PRESSING THE CTRL KEY AND THE C KEY */
+	
 	
 	
 	

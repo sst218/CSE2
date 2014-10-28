@@ -46,7 +46,7 @@ Scanner myScanner;
 				outerCounter++;
 			}
 			
-			System.out.print();
+			System.out.println();
 			
 			System.out.print("Enter y or Y to go again- ");
 			String userChoice = myScanner.next();
@@ -54,7 +54,8 @@ Scanner myScanner;
 			if(!userChoice.equalsIgnoreCase("y")){
 				break;
 			}
+			
 		}
-		
+	
 	}
 }
