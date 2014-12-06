@@ -50,12 +50,7 @@ public class Arrays{
 			System.out.println("\t" + myArray[j] + "\t" + reverseArray[j]); // print the contents of the two arrays in two columns side by side
 		}
 		
-		/* another way to print values from both arrays; comment out the print statement from the previous for loop
-		// print the contents of the two arrays in two columns side by side
-		for(int i = 0; i < myArray.length; i++) {
-			System.out.println("\t" + myArray[i] + "\t" + reverseArray[i]);
-		}
-		*/
+	
 	}
 
 }

@@ -21,18 +21,39 @@ public class MethodCalls{
     
     
    public static int addDigit(int number,int digit) {
+     int sign=1;
+     if (number<0 && digit<0){
+         sign=1;
+     }
+     else if(number<0 || digit<0) {
+         sign=-1;
+     }
      
-        if (digit>=0 && digit<=9) {
-            String stringa= "" + a;
-            String stringb= "" + b;
-            String stringc= "" + c;
-        }//end of inner if 
-      
+     number=Math.abs(number);
+     digit=Math.abs(digit);
+     String a=Integer.toString(number);
+     String b=Integer.toString(digit);
+     String c=a+b;
+     return sign*Integer.parseInt(c);
    } //end of add digit method
    
    
-   
-   public static int join() { 
+  public static int join(int number,int digit) { 
+    int sign=1;
+    if (number<0 && digit<0){
+         sign=1;
+     }
+     else if(number<0 || digit<0) {
+         sign=-1;
+     }
+     
+     number=Math.abs(number);
+     digit=Math.abs(digit);
+     String x=Integer.toString(number);
+     String y=Integer.toString(digit);
+     String z=x+y;
+     
+     return sign*Integer.parseInt(z);
        
    } //end of join method
    
